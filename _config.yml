@@ -25,7 +25,7 @@ googleAnalitycsID: UA-83933844-1
 
 
 collections:
-  kampanya
+  kampanya:
     output: true
     permalink: /kampanya/:name
     
