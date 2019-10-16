@@ -3,9 +3,11 @@
 # in the templates available like {{ site.myvariable }}.
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
 email: your-email@domain.com
-brand: Your Name
-headline: Inventor, Engineer and Futurist
-description: > # this means to ignore newlines until "baseurl:"
+brand: Anasayfa
+headline: Hızlı, Kolay ve Pratik
+description: > Açıklama
+deneme
+denememe # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "demirkesenotokiralama" # the subpath of your site, e.g. /blog
 url: "https://borfirbora.com" # the base hostname & protocol for your site
@@ -18,7 +20,7 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
+email: demirkesenotokiralama@gmail.com
 phone: +90 (534) 226 26 29
 
 # Tracking
