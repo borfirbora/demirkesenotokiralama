@@ -28,4 +28,6 @@ collections:
   kampanya:
     output: true
     permalink: /kampanya/:name
-    
+  araba:
+    output: true
+    permalink: /araba/:name
