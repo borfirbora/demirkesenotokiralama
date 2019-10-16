@@ -5,7 +5,8 @@ title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
 email: your-email@domain.com
 brand: Anasayfa
 headline: Hızlı, Kolay ve Pratik
-description: > Açıklama
+description: >
+  Açıklama
   deneme
   denememe # this means to ignore newlines until "baseurl:"
   New Site
