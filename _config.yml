@@ -27,7 +27,7 @@ phone: +90 (534) 226 26 29
 # Tracking
 googleAnalitycsID: UA-83933844-1
 
-permalink: /:name
+permalink: /:title
 
 collections:
   kampanya:
