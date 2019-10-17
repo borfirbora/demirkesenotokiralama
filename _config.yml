@@ -36,3 +36,91 @@ collections:
   araba:
     output: true
     permalink: /araba/:title
+
+
+prose:
+  rooturl: ''
+  media: 'araba'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /_web_src
+    - /web-dist
+    - /img
+    - /js
+  metadata:
+    _araba:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "araba"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Araba'nın Markası"
+          placeholder: "Reno Clio"
+          alterable: true
+      - name: "koltuk"
+        field:
+          element: "text"
+          label: "Koltuk Sayısı"
+          placeholder: "4"
+          alterable: true
+      - name: "yakit"
+        field:
+          element: "text"
+          label: "Aracın Yakıt Türü"
+          placeholder: "Dizel"
+          alterable: true
+      - name: "resim"
+        field:
+          element: "text"
+          label: "Resim"
+          help: "Arabanın Resmi için dosya adı"
+          placeholder: "araba/reno.jpg"
+          alterable: true
+      - name: "gunluk"
+        field:
+          element: "text"
+          label: "Aracın Günlük Kira Bedeli"
+          alterable: true
+      - name: "aylik"
+        field:
+          element: "text"
+          label: "Aracın Aylık Kira Bedeli"
+          alterable: true
+    _kampanya:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "kampanya"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Kampanya Başlığı"
+          placeholder: "Reno'lara özel 15 günlük sadece 900 lira"
+          alterable: true
+      - name: "baslangic"
+        field:
+          element: "text"
+          label: "Başlangıç tarihi"
+          placeholder: "21.12.2019"
+          alterable: true
+      - name: "bitis"
+        field:
+          element: "text"
+          label: "Bitiş Tarihi"
+          placeholder: "21.12.2019"
+          alterable: true
+      - name: "resim"
+        field:
+          element: "text"
+          label: "Kampanya Görseli"
+          help: "Kampanyanın Resmi için dosya adı"
+          placeholder: "araba/reno.jpg"
+          alterable: true
