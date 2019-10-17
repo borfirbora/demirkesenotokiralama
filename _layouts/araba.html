@@ -1,5 +1,16 @@
----
-layout: default
-
----
-{{ site.araba.content }}
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+        {% include top.html %}
+        {% include about.html %}
+<div role="main">
+  <h1>{{ araba.title }}</h1>      
+  {{ content }}
+        </div>
+        {% include contacts.html %}
+        {% include copyright.html %}
+        {% include tracking.html %}
+    </body>
+</html>
