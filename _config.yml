@@ -39,7 +39,7 @@ collections:
 
 
 prose:
-  rooturl: ''
+  rooturl: '_araba'
   media: 'araba'
   ignore:
     - 404.html
