@@ -4,7 +4,23 @@
             <h1>Hizmetlerimiz</h1>
         </div>
         <div class="col-md-12">
-
+		<h2>Araç Filomuz</h2>
 		</div>
-    </div>
+<div class="col-md-12">
+<table width="100%" border="1" cellspacing="1" cellpadding="1">
+  <caption align="top">
+    Aşağıdaki araçlarımızla 7/24 hizmetinizdeyiz. Aracın resmine tıklayarak dahaa detaylı bilgi alabilirsiniz.
+  </caption>
+{% for arac in site.araclar %}
+	<tr>
+		<th scope="row"><a href="{{ aracc.url }}"><img src="{{ arac.resim }}" width="200" height="200" alt="{{ arac.title }}" /></a></th>
+    <td>{{ arac.koltuk }}</td>
+    <td>{{ arac.yakit }}</td>
+    <td>Günlük: {{ arac.gunluk }}<br />Aylık: {{ arac.aylik }}</td>
+  </tr>
+{% endfor %}
+	</table>
+		</div>
+
+	</div>
 </section>
