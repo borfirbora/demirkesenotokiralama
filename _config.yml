@@ -32,7 +32,7 @@ permalink: /:name
 collections:
   kampanya:
     output: true
-    permalink: /kampanya/:name
+    permalink: /kampanya/:title
   araba:
     output: true
-    permalink: /araba/:name
+    permalink: /araba/:title
