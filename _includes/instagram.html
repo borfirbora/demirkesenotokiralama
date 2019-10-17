@@ -13,7 +13,7 @@
   </caption>
 {% for arac in site.araba %}
 	<tr>
-		<th scope="row"><a href="{{ arac.url }}"><img src="{{ arac.resim }}" width="200" height="200" alt="{{ arac.title }}" /></a></th>
+		<th scope="row"><a href="{{ site.baseurl }}{{ arac.url }}"><img src="{{ arac.resim }}" width="200" height="200" alt="{{ arac.title }}" /></a></th>
     <td>{{ arac.koltuk }}</td>
     <td>{{ arac.yakit }}</td>
     <td>Günlük: {{ arac.gunluk }}<br />Aylık: {{ arac.aylik }}</td>
